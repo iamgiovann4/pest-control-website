@@ -1,0 +1,28 @@
+.navbar {
+    background-color: brown;
+}
+.navbar-brand {
+    font-size: 25px;
+}
+
+.nav-link, .navbar-brand {
+    color: white;
+}
+
+.caixa1{
+    background-color: #292929;
+    color: white;
+}
+
+.botao {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: brown;
+    padding: 10px 25px;
+}
+
+/* .btn {
+    display: flex;
+    gap: 10px;
+} */
