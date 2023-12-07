@@ -34,9 +34,23 @@
 .card{
     padding: 10px;
 }
+
 .card-img-top{
     width: 100%;
     height: 40%;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.clicando{
+    text-decoration: none;
+    color: black;
+}
+
+.card-text{
+    text-align: center;
 }
 
 /* .btn {
