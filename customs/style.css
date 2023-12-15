@@ -35,10 +35,10 @@
     padding: 10px;
 }
 
-.card-img-top{
-    width: 100%;
-    height: 40%;
-}
+/* .card-img-top{
+    width: 200px;
+    height: 220px;
+} */
 
 .card-title{
     text-align: center;
@@ -53,11 +53,32 @@
     text-align: center;
 }
 
-@media only screen and (max-device-width: 900px) {
-    /* .menu { width:600px; } */
+.saibamais{
+    background-color: green;
+    border: none;
+    border-radius: 15px; 
+    padding: 5px 10px 5px 10px;
 }
 
-/* .btn {
-    display: flex;
-    gap: 10px;
-} */
+.saibamais:hover{
+    background-color: rgb(56, 143, 56);
+    siz
+}
+
+@media only screen and (min-width: 1000px) {
+    .introducao{
+        width: 40%;
+    }
+    .quemsomos{
+        width: 55%;
+    }
+    .perguntas{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .caixaicones{
+        margin-bottom: 40px;
+    }
+}
